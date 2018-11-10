@@ -1,0 +1,11 @@
+.Points{
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+}
+.Points span{
+	margin-right: 10px;
+	color: #ffffff;
+}
+

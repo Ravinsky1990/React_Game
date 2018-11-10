@@ -1,0 +1,19 @@
+.Question{
+    border: 2px solid #000000;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+    border-radius: 25px;
+    padding: 12px;
+    background-color: #e65c00;
+    width: 30%
+}
+.Question span{
+    margin-right: 12px;
+}
+
+@media screen and (max-width: 520px) {
+  .Question{
+  	width: 60%;
+  }
+}

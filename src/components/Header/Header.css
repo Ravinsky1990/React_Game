@@ -1,0 +1,18 @@
+.HeaderContainer{
+	background-color: #e65c00;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid #000000;
+	padding: 12px 30px;
+	border-radius: 25px;
+}
+
+.Header{
+	width: 100%;
+}
+
+@media screen and (min-width: 976px) {
+  .Header{
+  	width: 80%;
+  }
+}

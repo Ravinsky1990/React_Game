@@ -1,0 +1,16 @@
+.WelcomeSection{
+	height: 100vh;
+	background-color: #8585ad;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+
+.BtnWrap{
+	text-align: center;
+}

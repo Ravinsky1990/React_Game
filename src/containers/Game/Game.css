@@ -1,0 +1,16 @@
+
+.AppWrapper{
+    height:100vh;
+    background-color: #8585ad;
+    box-sizing: border-box;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center
+}
+@media screen and (max-width: 474px) {
+  .AppWrapper{
+  	padding: 10px;
+  }
+}

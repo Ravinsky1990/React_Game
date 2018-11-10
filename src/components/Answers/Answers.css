@@ -1,0 +1,26 @@
+.Answers{
+	box-sizing: border-box;
+    padding: 12px;
+    display: flex;
+    justify-content: space-around;
+    width: 60%
+}
+
+@media screen and (min-width: 976px) {
+  .Answers{
+  	width: 40%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .Answers{
+  	width: 80%;
+  }
+}
+
+@media screen and (max-width: 474px) {
+  .Answers{
+  	width: 100%;
+  	padding: 0px;
+  }
+}

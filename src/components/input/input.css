@@ -1,0 +1,35 @@
+.Input{
+	width: 100%;
+	padding: 10px;
+	box-sizing: border-box;
+
+}
+
+.Label{
+	font-weight: bold;
+	font-family: 'Ubuntu', sans-serif;
+	display: block;
+	margin-bottom: 8px;
+
+}
+
+.InputElement{
+	outline: none;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	font-family: 'Ubuntu', sans-serif;
+	padding: 6px 10px;
+	background-color: #ffffff;
+	width: 100%;
+	display: block;
+	box-sizing: border-box;
+}
+
+.InputElement:focus{
+	outline: none;
+}
+
+.Invalid{
+	border:1px solid red;
+	background-color: salmon;
+}

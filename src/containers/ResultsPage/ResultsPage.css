@@ -1,0 +1,14 @@
+.ResultsWrapper{
+	min-height:100vh;
+    background-color: #8585ad;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.NoResGames{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+	font-size: 1.5rem;
+}

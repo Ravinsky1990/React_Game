@@ -1,0 +1,9 @@
+.Wrapper{
+	height: 100vh;
+	background-color: #8585ad;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}

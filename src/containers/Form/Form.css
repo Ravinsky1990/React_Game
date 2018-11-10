@@ -1,0 +1,29 @@
+.Form{
+	flex-basis: 500px;
+	min-height: 100px;
+	border: 2px solid #000000;
+	border-radius: 4px;
+	background-color: #e65c00;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.Succsess{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.Error{
+	text-align: center;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	margin-bottom: 20px;
+	color: brown
+}
+
+
+.BtnWrap{
+	text-align: center;
+}

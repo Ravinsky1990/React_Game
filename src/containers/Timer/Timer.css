@@ -1,0 +1,10 @@
+.Timer{
+    box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.Timer span{
+	color: brown;
+	margin-right: 10px;
+}

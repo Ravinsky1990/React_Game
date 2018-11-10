@@ -1,0 +1,48 @@
+.Wrapper{
+	background-color: #e65c00;
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid #000000;
+	padding: 12px 30px;
+	border-radius: 25px;
+	margin-bottom: 16px;
+	box-sizing: border-box;
+}
+
+.Name{
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: brown;
+	flex-basis: 30%
+}
+.Date{
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: brown;
+	flex-basis: 30%;
+	text-align: center;
+}
+.Points{
+	box-sizing: border-box;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 300;
+	font-size: 1.5rem;
+	color: white;
+	flex-basis: 30%;
+	text-align: right;
+}
+
+@media screen and (max-width: 624px) {
+  .Wrapper{
+  	flex-wrap: wrap;
+  }
+  .Name,.Date,.Points{
+  	flex-basis: 100%;
+  	text-align: center;
+  	margin-bottom: 10px;
+  }
+}
